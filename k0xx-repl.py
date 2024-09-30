@@ -30,12 +30,14 @@ def run():
     entry_nodes = concat_sets(entry_countries)
     exit_nodes = concat_sets(exit_countries)
     print("==========================================")
-    print("StrictNodes 1")
     print("ExcludeNodes " + exclude_nodes)
+    print("StrictNodes 1")
+    print("ExcludeExitNodes" + exclude_nodes)
     if len(entry_nodes) > 0:
         print("EntryNodes " + entry_nodes)
     if len(exit_nodes) > 0:
         print("ExitNodes " + exit_nodes)
+    pritnt("GeoIPExcludeUnknown 1")
     print("==========================================")
 
 # プログラム実行
