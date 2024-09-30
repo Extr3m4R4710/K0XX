@@ -32,7 +32,7 @@ def run():
     print("==========================================")
     print("ExcludeNodes " + exclude_nodes)
     print("StrictNodes 1")
-    print("ExcludeExitNodes" + exclude_nodes)
+    #print("ExcludeExitNodes" + exclude_nodes)
     if len(entry_nodes) > 0:
         print("EntryNodes " + entry_nodes)
     if len(exit_nodes) > 0:
