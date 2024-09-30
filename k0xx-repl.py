@@ -37,7 +37,7 @@ def run():
         print("EntryNodes " + entry_nodes)
     if len(exit_nodes) > 0:
         print("ExitNodes " + exit_nodes)
-    pritnt("GeoIPExcludeUnknown 1")
+    print("GeoIPExcludeUnknown 1")
     print("==========================================")
 
 # プログラム実行
