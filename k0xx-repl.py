@@ -38,6 +38,11 @@ def run():
     if len(exit_nodes) > 0:
         print("ExitNodes " + exit_nodes)
     print("GeoIPExcludeUnknown 1")
+    print("NewCircuitPeriod 40")
+    print("MaxCircuitDirtiness 600")
+    print("MaxClientCircuitsPending 48")
+    print("UseEntryGuards 1")
+    print("EnforceDistinctSubnets 1")
     print("==========================================")
 
 # プログラム実行
