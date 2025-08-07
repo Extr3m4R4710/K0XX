@@ -30,7 +30,7 @@ def main():
     entry_nodes = concat_sets(input_entry_countries)
     exit_nodes = concat_sets(input_exit_countries)
     print("==========================================")
-    print("ExcludeNodes {??},{ap},{eu}" + exclude_nodes)
+    print("ExcludeNodes {aq},{??},{ap},{eu}" + exclude_nodes)
     print("StrictNodes 1")
     #print("ExcludeExitNodes" + exclude_nodes)
     if len(entry_nodes) > 0:
